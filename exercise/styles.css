@@ -1,6 +1,7 @@
 @import "./components/header.css";
 @import "./components/main.css";
 @import "./components/footer.css";
+@import "./media.css";
 
 * {
   margin: 0;

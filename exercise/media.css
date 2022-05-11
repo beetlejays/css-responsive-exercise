@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: light) {
+  .header {
+    background: beige;
+    color: #333;
+  }
+
+  .footer {
+    background: beige;
+    color: #333;
+  }
+
+  .main-area {
+    background: rgb(200, 196, 196);
+  }
+
+  .article {
+    background-color: azure;
+  }
+
+  .article__headline,
+  .article__paragraph,
+  .article__svg {
+    color: #333;
+  }
+}
