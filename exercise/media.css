@@ -23,3 +23,32 @@
     color: #333;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .main-area {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article__headline {
+    font-size: 1.6rem;
+  }
+  .article {
+    width: 40%;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .article {
+    width: 20%;
+  }
+  .article__svg {
+    top: auto;
+    bottom: 20px;
+  }
+  .article__headline {
+    font-size: 2.4rem;
+  }
+}

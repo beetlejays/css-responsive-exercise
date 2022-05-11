@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 :root {
   --header-height: 75px;
   --footer-height: 50px;
